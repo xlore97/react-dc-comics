@@ -1,5 +1,7 @@
 import "./MyMain.css";
 import Card from "./SubMain/Card";
+import comics from "./SubMain/comics";
+
 import icoDigital from "../assets/buy-comics-digital-comics.png";
 import icoMerch from "../assets/buy-comics-merchandise.png";
 import icoSub from "../assets/buy-comics-subscriptions.png";
@@ -22,7 +24,7 @@ const MyMain = () => {
                 <img src={heroImg} alt="DC Hero Banner" className="hero-img" />
             </section>
 
-            <Card />
+            <Card comics={comics} />
 
             <section className="blue">
                 <div className="container">

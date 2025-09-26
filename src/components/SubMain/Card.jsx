@@ -1,7 +1,6 @@
 import "./Card.css";
-import comics from "./comics";
 
-const Card = () => {
+const Card = ({ comics }) => {
     return (
         <section className="series">
             <div className="container">
